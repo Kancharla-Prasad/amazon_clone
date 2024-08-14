@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Amazon
+	</title>
+	<link rel="stylesheet" type="text/css" href="amazon.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/amazon_logo.png" width="60">
+		</div>
+		<div class="location">
+			<p>Deliver to</p>
+			<div class="location-uk">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/location_icon.png">
+				<h4 style="font-weight: 600;">United Kingdom</h4>
+			</div>
+		</div>
+
+		<div class="search-box">
+			<select>
+				<option>All</option>
+			</select>
+			<div id="input">
+				<input type="text" name="" placeholder="Search Amazon.in">
+			</div>
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</div>
+			
+ 
+		<div class="language">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/us_flag.png">
+			<div>
+				<h2>EN <i class="fa-solid fa-caret-down"></i></h2>
+			</div>
+			<div class="hover-language">
+				<h1></h1>
+				<input type="radio" name="" checked> <label id="first">English-EN</label><br><hr>
+				<div>
+				<input type="radio" name="" > <label>हिंदी-HI</label><br>
+		     	</div>
+			<div>
+				<input type="radio" name=""> <label>ಕನ್ನಡ
+-KN</label><br></div><div>
+				<input type="radio" name="" > <label>தமிழ்-TA</label><br>
+			</div><div>
+				<input type="radio" name=""> <label>తెలుగు-TE</label><br></div><div>
+				<input type="radio" name="" >
+				<label>മലയാളം-ML</label><br></div><div>
+				<input type="radio" name="">
+				<label>मराठी-MR</label><br></div><div>
+				<input type="radio" name="" >
+				<label>বাংলা-BN</label><br></div>
+				<h6>Learn more</h6>
+				<hr>
+				<div id="lang-matter">
+					<p><img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/INDIA.png">You are shopping on amazon.in</p>
+					<a href="#">Change country/region</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="sign-in">
+			<p>Hello,sign in</p>
+			<h3>Accounts & Lists&nbsp;<i class="fa-solid fa-caret-down"></i></h3>
+			<div class="hover-sign">
+				<h1></h1>
+				<div class="btn">
+					<button>Sign in </button>
+					<p>New Customer? <span>start here</span></p>
+
+				</div>
+				<hr>
+				<div class="account-info">
+					<div class="col col1">
+						<h1>Your Lists</h1>
+						<a href="#">Create a Wish List</a>
+						<a href="#">Wish from Any Website</a>
+						<a href="#">Baby WishList</a>
+						<a href="#">Discover</a>
+						<a href="#">Explore Showroom</a>
+					</div>
+					<hr>
+					<divc class="col col2">
+						<h1>Your Account</h1>
+						<a href="#">Your Account</a>
+						<a href="#">Your Orders</a>
+						<a href="#">YOur Wish List</a>
+						<a href="#">Your Recommendataions</a>
+						<a href="#">Your Prime Membership</a>
+						<a href="#">Your Prime Video</a>
+						<a href="#">Your Subscribe & Save Items</a>
+						<a href="Memberships & Subsrciptions"></a>
+						<a href="#">Your Seller Account</a>
+						<a href="#">Manage Your Content and Devices</a>
+						<a href="#">
+							Your Free Amazon Business Account
+						</a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="orders">
+			<p>Returns</p>
+			<h3>& Orders</h3>
+		</div>
+
+		<div class="cart-location">
+			<p>
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/cart_icon.png">
+			<span>Cart</span>
+			</p>
+		</div>
+	</nav>
+
+
+		<div class="nav2">
+			<div class="links">
+				<li style="font-weight: 700;color: wheat;"><i class="fa-solid fa-bars" id="allBtn"></i>&nbsp;&nbsp;All</li>
+				<li><a href="#">Fresh</a></li>
+				<li><a href="#">Amazon miniTV</a></li>
+				<li><a href="#">Sell</a></li>
+				<li><a href="#">Best Sellers</a></li>
+				<li><a href="#">Mobiles</a></li>
+				<li><a href="#">Today's Deals</a></li>
+				<li><a href="#">Electronics</a></li>
+				<li><a href="#">Customer Services</a></li>
+				<li><a href="#">New Releases</a></li>
+				<li><a href="#">Prime<i class="fa-solid fa-caret-down"></i></a></li>
+			</div>
+			<div class="new-releases">
+				<h4>New Launches from Mobiles,Electronics & more| Shop now</h4>
+			</div>
+
+			<div class="hoverMenu" id="hoverMenu">
+				<div class="heading">
+					<h2><i class="fa-solid fa-user"></i>&nbsp;&nbsp;Hello,sign in</h2>
+					<h2 class="crossBtn"><i class="fa-solid fa-xmark"></i></h2>
+				</div>
+				<div class="menuList">
+					<div class="trending">
+						<h4>Trending</h4>
+						<p>Best Sellers</p>
+						<p>New Releases</p>
+						<p>Movers and Shakers</p>
+					</div>
+					<div class="devices">
+						<h4>Digital Content and Devices </h4>
+						<p>Amazon miniTV-FREE entertainment</p>
+						<p>Echo & Alexa <i class="fa-solid fa-caret-right"></i></p>
+						<p>Fire TV<i class="fa-solid fa-caret-right"></i></p>
+						<p>Kindle E-Readers & eBooks<i class="fa-solid fa-caret-right"></i></p>
+						<p>Audible AudioBooks<i class="fa-solid fa-caret-right"></i></p>
+						<p>Amazon Prime Video<i class="fa-solid fa-caret-right"></i></p>
+						<p>Amazom Prime Music<i class="fa-solid fa-caret-right"></i></p>
+					</div>
+					<div class="category">
+						<h4>Shop by Category</h4>
+						<p>Mobiles,Computers</p>
+						<p>TV,Appliances,Electronics</p>
+						<p>Men's Fashion</p>
+						<p>Women's Fashion</p>
+						
+					</div>
+					<div class="programs">
+						<h4>Programs & Features</h4>
+						<p>Amazon Pay</p>
+						<p>Gift Cards & Mobile Recharges</p>
+						<p>Amazon Launchpa</p>
+						<p>Handloom and Handicrafts</p>
+						
+					</div>
+					<div class="help">
+						<h4>Help & Settings</h4>
+						<p>Your Account</p>
+						<p>Customer Service</p>
+						<p>Sign in</p>
+					</div>
+				</div>
+			</div>
+		</div> 
+	<section class="home">
+		
+		<div id="images">
+			<button id="prev-btn"><i class="fa-solid fa-caret-left"></i></button>
+		<button id="next-btn"><i class="fa-solid fa-caret-right"></i></button>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/amazon_back_img1.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/amazon_back_img2.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/amazon_back_img3.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/amazon_back_img4.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/amazon_back_img5.jpg">
+		</div>
+	</section>
+
+	<div class="box-row">
+		<div class="col col1">
+			<a href="#"><img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box1_img_1.png"></a>
+		</div>
+		<div class="col col2">
+			<a href="#"><img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box1_img_2.png"></a>
+		</div>
+		<div class="col col3">
+			<a href="#"><img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box1_img_3.png"></a>
+		</div>
+		<div class="col col4">
+			<a href="#"><img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box1_img_4.png"></a>
+		</div>
+		<div class="col col5">
+			<a href="#"><img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box1_img_5.png"></a>
+		</div>
+	</div>
+
+	<div class="box-row1">
+		<div class="col ">
+			<h3>Top international Returns</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box1-1.jpg">
+			<a href="#">Shop More</a>
+		</div>
+		<div class="col">
+			<h3>Lunar New year</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box1-2.jpg">
+			<a href="#">Shop More</a>
+		</div>
+		<div class="col ">
+			<h3>Toy under $25</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box1-3.jpg">
+			<a href="#">Shop More</a>
+		</div>
+		<div class="col">
+			<h3>Deals in PCs</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box1-4.jpg">
+			<a href="#">Shop More</a>
+		</div>
+	</div>
+	<div class="box-row1">
+		<div class="col ">
+			<h3>Grooming Products</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box2-1.jpg">
+			<a href="#">Shop More</a>
+		</div>
+		<div class="col">
+			<h3>Latest Devices</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box2-2.jpg">
+			<a href="#">Shop More</a>
+		</div>
+		<div class="col ">
+			<h3>Pets Food</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box2-3.jpg">
+			<a href="#">Shop More</a>
+		</div>
+		<div class="col">
+			<h3>Fashion Mart</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box2-4.jpg">
+			<a href="#">Shop More</a>
+		</div>
+	</div>
+	
+	<div class="box-roller">
+		<h3>Best Sellers in Sports & Outdoors</h3>
+		<div class="imgs">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product1-2.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product1-1.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product1-3.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product1-4.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product1-5.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product1-6.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product1-7.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product1-8.jpg">
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product1-9.jpg">
+		</div>
+	</div>
+	<div class="box-row1">
+		<div class="col ">
+			<h3>Stationary</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box3-1.jpg">
+			<a href="#">Shop More</a>
+		</div>
+		<div class="col">
+			<h3>Laptops for Study</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box3-2.jpg">
+			<a href="#">Shop More</a>
+		</div>
+		<div class="col ">
+			<h3>Office chairs</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box3-3.jpg">
+			<a href="#">Shop More</a>
+		</div>
+		<div class="col">
+			<h3>aming Monitor</h3>
+			<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/box3-4.jpg">
+			<a href="#">Shop More</a>
+		</div>
+	</div>
+
+
+	<div class="box-roller-with-price products">
+
+		<h3>Deals Under $25&nbsp;&nbsp;&nbsp;&nbsp;<span>See more</span></h3>
+		<div class="box-with-price">
+			<div class="col">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product2-1.jpg">
+				<div class="matter">
+					<div>
+						<span class="one">27% off</span>&nbsp;&nbsp;&nbsp;<span>Deal</span>
+					</div>
+					<p>$<span>14.49</span> List Price:$19.90</p>
+					<h4>This product is the best for you</h4>				
+				</div>
+			</div>
+			<div class="col">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product2-2.jpg">
+				<div class="matter">
+					<div>
+						<span class="one">27% off</span>&nbsp;&nbsp;&nbsp;<span>Deal</span>
+					</div>
+					<p>$<span>14.49</span> List Price:$19.90</p>
+					<h4>This product is the best for you</h4>				
+				</div>
+			</div>
+			<div class="col">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product2-3.jpg">
+				<div class="matter">
+					<div>
+						<span class="one">27% off</span>&nbsp;&nbsp;&nbsp;<span>Deal</span>
+					</div>
+					<p>$<span>14.49</span> List Price:$19.90</p>
+					<h4>This product is the best for you</h4>				
+				</div>
+			</div>
+			<div class="col">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product2-4.jpg">
+				<div class="matter">
+					<div>
+						<span class="one">27% off</span>&nbsp;&nbsp;&nbsp;<span>Deal</span>
+					</div>
+					<p>$<span>14.49</span> List Price:$19.90</p>
+					<h4>This product is the best for you</h4>				
+				</div>
+			</div>
+			<div class="col">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product2-5.jpg">
+				<div class="matter">
+					<div>
+						<span class="one">27% off</span>&nbsp;&nbsp;&nbsp;<span>Deal</span>
+					</div>
+					<p>$<span>14.49</span> List Price:$19.90</p>
+					<h4>This product is the best for you</h4>				
+				</div>
+			</div>
+			<div class="col">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product2-10.jpg">
+				<div class="matter">
+					<div>
+						<span class="one">27% off</span>&nbsp;&nbsp;&nbsp;<span>Deal</span>
+					</div>
+					<p>$<span>14.49</span> List Price:$19.90</p>
+					<h4>This product is the best for you</h4>				
+				</div>
+			</div>
+			<div class="col">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product2-7.jpg">
+				<div class="matter">
+					<div>
+						<span class="one">27% off</span>&nbsp;&nbsp;&nbsp;<span>Deal</span>
+					</div>
+					<p>$<span>14.49</span> List Price:$19.90</p>
+					<h4>This product is the best for you</h4>				
+				</div>
+			</div>
+			<div class="col">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/product2-8.jpg">
+				<div class="matter">
+					<div>
+						<span class="one">27% off</span>&nbsp;&nbsp;&nbsp;<span>Deal</span>
+					</div>
+					<p>$<span>14.49</span> List Price:$19.90</p>
+					<h4>This product is the best for you</h4>				
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scroller section -->
+	<section class="scroll">
+		<h4>Today's Deals &nbsp;&nbsp;<span>see all offers</span></h4>
+		<button id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
+		<button id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+		<div class="gallery">
+			<div>
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll1.jpg">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll2.jpg">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll3.jpg">
+				
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll5.jpg">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll7.jpg">
+			</div>
+			<div>
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll8.jpg">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll9.jpg">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll11.jpg">
+				
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll10.jpg">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scr.jpg">
+			</div>
+			<div>
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll11.jpg">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll13.jpg">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll14.jpg">
+				
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll15.jpg">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/scroll16.jpg">
+			</div>
+		</div>
+
+	</section>
+
+
+
+	<!-- footer seciton -->
+	<section class="footer">
+		<div class="row">
+			<div class="col">
+				<h4>Get to Know Us</h4>
+				<p>About Us</p>
+				<p>Careers</p>
+				<p>Press Releases</p>
+				<p>Amazon Science</p>
+			</div>
+			<div class="col">
+				<h4>Connect with Us</h4>
+				<p>Face book</p>
+				<p>Twitter</p>
+				<p>Instagram</p>
+			</div>
+			<div class="col">
+				<h4>Make Money with Us</h4>
+				<p>Sell on Amazon</p>
+				<p>Sell under Amazon Accelerator</p>
+    <p>Protect and Build Your Brand</p>
+<p>Amazon Global Selling</p>
+<p>Become an Affiliate</p>
+<p>Fulfilment by Amazon</p>
+<p>Advertise Your Products</p>
+<p>Amazon Pay on Merchants</p>
+
+			</div>
+			<div class="col">
+				<h4>Let Us Help You</h4>
+
+			<p>	Let Us Help You</p>
+				<p>COVID-19 and Amazon</p>
+				<p><p>Your Account</p>
+			<p>	Returns Centre</p>
+				<p>100% Purchase Protection</p>
+				<p>Amazon App Download</p>
+				<p>	Help</p>
+			</div>
+		</div>
+
+		<div class="lang-row">
+			<div class="row1">
+				<img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/amazon_logo.png" width="60">
+				<div class="drop-down" >
+					<select>
+						<option>English</option>
+					</select>
+					<div class="hover-language">
+								<h1></h1>
+								<input type="radio" name="" checked> <label id="first">English-EN</label><br><hr>
+								<div>
+								<input type="radio" name="" > <label>हिंदी-HI</label><br>
+						     	</div>
+							<div>
+								<input type="radio" name=""> <label>ಕನ್ನಡ
+				-KN</label><br></div><div>
+								<input type="radio" name="" > <label>தமிழ்-TA</label><br>
+							</div><div>
+								<input type="radio" name=""> <label>తెలుగు-TE</label><br></div><div>
+								<input type="radio" name="" >
+								<label>മലയാളം-ML</label><br></div><div>
+								<input type="radio" name="">
+								<label>मराठी-MR</label><br></div><div>
+								<input type="radio" name="" >
+								<label>বাংলা-BN</label><br></div>
+								<h6>Learn more</h6>
+								<hr>
+								<div id="lang-matter">
+									<p><img src="/home/apiiit123/Desktop/HTML STORE/javascritpt_practice/js_projects/amazon_clone/assets/INDIA.png">You are shopping on amazon.in</p>
+									<a href="#">Change country/region</a>
+								</div>
+						</div>
+				</div>
+			</div>
+			<div class="row2">
+				<p>
+					<span>Australia</span>
+			<span>Brazil</span>
+			<span>Canada</span>
+			<span>China</span>
+			<span>France</span>
+			<span>Germany</span>
+			<span>Italy</span>
+			<span>Japan</span>
+			<span>Mexico</span>
+			<span>Netherlands</span>
+			<span>Poland</span>
+			<span>Singapore</span>
+			<span>Spain</span>
+			<span>Turkey</span>
+			<span>India</span>
+			<span>US</span>
+			<span>Dubai</span>
+			<span>Malaysia</span>
+		</p>
+			</div>
+		</div>
+
+		<div class="last-details">
+			<div class="last-row">
+				<div class="last-col">
+					<h5>AbeBooks</h5>
+					<p>Books,art<br>&collections</p>
+				</div>
+				<div class="last-col">
+					<h5>Amazon Web Services</h5>
+					<p>Scalable Cloud <br>Computing Services</p>
+				</div>
+				<div class="last-col">
+					<h5>Audible</h5>
+					<p>Download & Audio Books</p>
+				</div>
+				<div class="last-col">
+					<h5>IMDb</h5>
+					<p>Movies,TV <br> & Celebrities</p>
+				</div>
+			</div>
+			<div class="last-row">
+				<div class="last-col">
+					<h5>AbeBooks</h5>
+					<p>Books,art<br>&collections</p>
+				</div>
+				<div class="last-col">
+					<h5>Amazon Web Services</h5>
+					<p>Scalable Cloud <br>Computing Services</p>
+				</div>
+				<div class="last-col">
+					<h5>Audible</h5>
+					<p>Download & Audio Books</p>
+				</div>
+				<div class="last-col">
+					<h5>IMDb</h5>
+					<p>Movies,TV <br> & Celebrities</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyRights">
+				<p><span>Conditions of Use & Sale</span> &nbsp;&nbsp;&nbsp;&nbsp; <span>Privacy Notice</span> &nbsp;&nbsp;&nbsp;&nbsp;<span>Interest-Based Ads</span></p>
+				<p>&copy;1996-2024,Amazon.com,Inc. or its affiliates</p>
+		</div>
+		
+	</section>
+</body>
+
+	<script type="text/javascript" src="amazon.js">
+		
+	</script>
+</html>
